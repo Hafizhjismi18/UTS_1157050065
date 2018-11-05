@@ -43,9 +43,9 @@ public class HomeFragment extends Fragment {
     }
 
     private void initUI() {
-        txtNama.setText("Nikko Eka Saputra");
-        txtNim.setText("1157050115");
-        txtTanggalLahir.setText("Jakarta, 04 Oktober 1997");
-        txtAlamat.setText("Pondok Pesantren Mahasiswa Universal, Cipadung, Cibiru, Bandung");
+        txtNama.setText("Pirman Abdurohman");
+        txtNim.setText("1157050127");
+        txtTanggalLahir.setText("Sukabumi, 15 Oktober 1995");
+        txtAlamat.setText("Asrama Granada , Jl. AH. Nasution, Cibiru , Kota Bandung");
     }
 }
