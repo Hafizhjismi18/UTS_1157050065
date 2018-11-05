@@ -1,5 +1,7 @@
 package com.genesiss.pimenvibritania.uts_11570550127.activity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -10,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.genesiss.pimenvibritania.uts_11570550127.R;
 import com.genesiss.pimenvibritania.uts_11570550127.fragment.HomeFragment;
@@ -43,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         navigationView.setNavigationItemSelectedListener(this);
         displaySelectedScreen(R.id.nav_home);
+
+
     }
 
     @Override
@@ -86,4 +91,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
     }
+
+
 }
