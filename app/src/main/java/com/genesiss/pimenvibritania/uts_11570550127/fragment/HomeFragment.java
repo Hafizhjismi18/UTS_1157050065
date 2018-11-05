@@ -45,7 +45,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                clicked_btn("https://www.github.com/pimenvibritania");
+                clicked_btn("https://github.com/Hafizhjismi18/");
 
             }
         });
@@ -58,10 +58,10 @@ public class HomeFragment extends Fragment {
     }
 
     private void initUI() {
-        txtNama.setText("Pirman Abdurohman");
-        txtNim.setText("1157050127");
-        txtTanggalLahir.setText("Sukabumi, 15 Oktober 1995");
-        txtAlamat.setText("Asrama Granada , Jl. AH. Nasution, Cibiru , Kota Bandung");
+        txtNama.setText("Hafizh Jismi T");
+        txtNim.setText("1157050065");
+        txtTanggalLahir.setText("Garut, 18 Oktober 1997");
+        txtAlamat.setText("Garut - Jawa Barat");
     }
 
     public void clicked_btn(String url){
